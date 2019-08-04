@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:7:5-26:19
+	android:label
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:8:9-45
+activity#com.zhy.berrydic.ui.LoginActivity
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:10:9-17:20
+	android:label
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:12:13-34
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:11:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.zhy.berrydic.ui.BerryDictionaryActivity
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:18:9-22:20
+	android:label
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:19:13-55
+activity#com.zhy.berrydic.ui.NewWordActivity
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:23:9-56
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:23:19-53
+activity#com.zhy.berrydic.ui.TranslateActivity
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:24:9-58
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:24:19-55
+activity#com.zhy.berrydic.ui.ShowWordInfoActivity
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:25:9-61
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:25:19-58
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:28:2-63
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:28:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:30:2-75
+	android:name
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml:30:19-73
+uses-sdk
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jacking\StudioProjects\Dictionary\app\src\main\AndroidManifest.xml

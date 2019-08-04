@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+<LinearLayout
+	 android:layout_below="@+id/llayout1"	
+	 android:orientation="vertical"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content">
+	
+	<LinearLayout
+		 android:orientation="horizontal"
+   		 android:layout_width="fill_parent"
+   		 android:layout_height="wrap_content"
+   		 android:gravity="center_vertical">
+    	<TextView
+			android:id="@+id/show_tv_word"
+			android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:textSize="35sp"
+	   	    android:textColor="#FF0000"
+	   	    android:layout_marginLeft="40dip"
+		></TextView>
+		<TextView
+			android:id="@+id/show_tv_pron"
+			android:layout_marginLeft="5dip"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="#000000"
+		    android:layout_marginTop="3dip"
+		></TextView>
+		<Button
+			android:id="@+id/show_btn_aduio"
+			android:layout_marginLeft="5dip"
+			android:visibility="invisible"
+			android:layout_width="30dip" 
+			android:layout_height="30dip"    
+		    android:background="@drawable/btn_audio"
+		    android:layout_marginTop="3dip"
+		></Button>
+    </LinearLayout>		
+	
+	<TextView
+			android:id="@+id/show_tv_def"
+			android:layout_marginLeft="15dip"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		     android:textColor="#000000"
+		></TextView>
+		<View 
+		    android:id="@+id/show_lines"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dip"
+		    android:background="@drawable/list_line"
+		    android:visibility="gone"
+		    />
+			<ListView
+				android:id="@+id/show_listview"  
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"   
+			    android:cacheColorHint="#00000000"
+			    android:divider="@drawable/list_line"
+			></ListView>	    
+</LinearLayout>
+</RelativeLayout>

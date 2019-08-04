@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RelativeLayout01"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+	<ListView 
+	    android:id="@+id/wordbook_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:cacheColorHint="#00000000"
+	    android:divider="@drawable/list_line"
+	    android:listSelector="@drawable/list_select_bg"
+	    android:descendantFocusability="blocksDescendants"
+		android:clickable="true"
+		android:focusable="true"
+	    ></ListView>
+</RelativeLayout>
